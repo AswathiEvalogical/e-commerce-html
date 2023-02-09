@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.a{
+   letter-spacing: 5px;
+    height: 100px;
+    background-color: aquamarine ;
+    font-family: 'Caveat', cursive;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Questrial', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.c{
+width: 20%;
+display: flex;
+justify-content: space-evenly;
+}
+.image{
+    background-image: url("/images/clothes-to-repeat-fashion-tips_g.jpg");
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+font-family: 'Changa', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Questrial', sans-serif;
+}
+.content{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+}
+.content1{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}

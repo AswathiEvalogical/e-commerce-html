@@ -55,3 +55,28 @@ font-family: 'Questrial', sans-serif;
     display: flex;
     justify-content: center;
 }
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer-container ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-container li{
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+.image2{
+    background-image: url("/images/pexels-photo-833185.jpeg");
+    height:80vh;
+    width: 50%;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    

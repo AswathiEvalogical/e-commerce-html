@@ -1,57 +1,60 @@
-body{
+body {
     margin: 0;
 }
-.a{
-   letter-spacing: 5px;
+
+.a {
+    letter-spacing: 5px;
     height: 100px;
-    background-color: rgb(30, 24, 24) ;
+    background-color: rgb(30, 24, 24);
     font-family: 'Caveat', cursive;
     font-family: 'Changa', sans-serif;
     font-family: 'Heebo', sans-serif;
     font-family: 'Orbitron', sans-serif;
-    font-family: 'Questrial', sans-serif; 
+    font-family: 'Questrial', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white ;
-}
-.color{
     color: white;
 }
 
-.b{
+.color {
+    color: white;
+    text-decoration: none;
+}
+
+.text_cl {
+    color: black;
+    text-decoration: none;
+}
+
+.b {
     width: 24%;
     display: flex;
     justify-content: space-evenly;
 }
-.c{
-width: 24%;
-display: flex;
-justify-content: space-evenly;
+
+.c {
+    width: 24%;
+    display: flex;
+    justify-content: space-evenly;
 }
-.image{
+
+.image {
     background-image: url("/images/clothes-to-repeat-fashion-tips_g.jpg");
-    height:80vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Caveat', cursive;
-font-family: 'Changa', sans-serif;
-font-family: 'Heebo', sans-serif;
-font-family: 'Orbitron', sans-serif;
-font-family: 'Questrial', sans-serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
-.content{
-    /* border: 1px solid black; */
-    height: 50px;
-    width: 30%;
-    font-size: 30px;
-    display: flex;
-    justify-content:center;
-}
-.content1{
+
+.content {
     /* border: 1px solid black; */
     height: 50px;
     width: 30%;
@@ -59,25 +62,40 @@ font-family: 'Questrial', sans-serif;
     display: flex;
     justify-content: center;
 }
-.footer-container{
+
+.content1 {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.footer-container ul{
+
+.footer-container ul {
     list-style: none;
     padding: 0;
 }
-.footer-container li{
+
+.footer-container li {
     padding: 10px 0 10px 0;
     cursor: pointer;
 }
 
 
+
+
+
 /* category page */
-.image2{
+.image2 {
     background-image: url("/images/pexels-photo-833185.jpeg");
-    height:80vh;
+    height: 80vh;
     width: 50%;
 
     background-repeat: no-repeat;
@@ -86,8 +104,8 @@ font-family: 'Questrial', sans-serif;
     justify-content: space-between;
     align-items: center;
 }
-    
-.left{
+
+.left {
     width: 25%;
     height: 80vh;
     background-color: #f8d496;
@@ -98,7 +116,7 @@ font-family: 'Questrial', sans-serif;
     align-items: center;
 }
 
-.right{
+.right {
     width: 25%;
     height: 80vh;
     background-color: #f8d496;
@@ -107,30 +125,37 @@ font-family: 'Questrial', sans-serif;
     flex-direction: column;
     align-items: center;
 }
-.spn_1{
+
+.spn_1 {
     margin: 0;
-  font-size: 23px;  
+    font-size: 23px;
 }
-.spn_2{
+
+.spn_2 {
     margin: 0;
- font-size: 60px;
+    font-size: 60px;
 }
-.spn_3{
+
+.spn_3 {
     margin: 0;
-   font-size:80px;  
+    font-size: 80px;
 }
-.spn_4{
-    font-size:23px;  
+
+.spn_4 {
+    font-size: 23px;
 
 }
-.main-wrapper{
+
+.main-wrapper {
     display: flex;
 
 }
-.base{
+
+.base {
     margin: 0;
 }
-.offer{
+
+.offer {
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
     width: 68%;
@@ -139,7 +164,8 @@ font-family: 'Questrial', sans-serif;
     justify-content: center;
     align-items: center;
 }
-.spoffer{
+
+.spoffer {
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
     width: 86%;
@@ -150,57 +176,62 @@ font-family: 'Questrial', sans-serif;
     align-items: center;
 }
 
-.category{
+.category {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 480px;
 }
-.cat_1{
+
+.cat_1 {
     background-image: url("/images/roman-holoschchuk-DPOPc2vhUww-unsplash.jpg");
-    height:100%;
+    height: 100%;
     width: 100%;
-   background-repeat:no-repeat;
-   background-size: cover;
-   margin-top: 10px;
-   /* position: relative; */
-   /* text-align: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    /* position: relative; */
+    /* text-align: center; */
 
 }
-.cat_2{
+
+.cat_2 {
     background-image: url("/images/mohamad-khosravi-c9p3j29YxG8-unsplash.jpg");
     height: 100%;
-    width: 100%; 
-    background-size:cover;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-   margin-top: 10px;
+    margin-top: 10px;
 
 }
-.cat_3{
+
+.cat_3 {
     background-image: url("/images/chris-hardy-_ViDPYQXrdY-unsplash.jpg");
     height: 100%;
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-   margin-top: 10px;
+    margin-top: 10px;
 
 }
-.cat_4{
+
+.cat_4 {
     background-image: url("/images/christian-bowen-uFCkcE6GI40-unsplash.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-   margin-top: 10px;
-    
+    margin-top: 10px;
+
 }
 
-.com1{
+.com1 {
     height: 384px;
     width: 20%;
     /* border: 1px solid black; */
 }
-.abc{
+
+.abc {
     border: 3px solid black;
     height: 41px;
     margin: 0;
@@ -213,25 +244,28 @@ font-family: 'Questrial', sans-serif;
 }
 
 
-.subcategory{
+
+/* Sub Category */
+
+.subcategory {
     height: 396px;
     width: 100%;
     /* display: flex; */
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap; */
-    
+
 }
 
 
-.all_box{
-        height: 396px;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
+.all_box {
+    height: 396px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
-.sub_head{
+.sub_head {
     height: 87px;
     width: 24%;
     font-size: 40px;
@@ -241,11 +275,12 @@ font-family: 'Questrial', sans-serif;
     margin-top: 10px;
 }
 
-.box{
+.box {
     height: 288px;
     width: 20%;
 }
-.cat_img{
+
+.cat_img {
     background-image: url("/images/044d8bbb88be6821494c693463c2407a.jpg");
     height: 60%;
     width: 100%;
@@ -253,7 +288,7 @@ font-family: 'Questrial', sans-serif;
     background-repeat: no-repeat;
 }
 
-.cat_img2{
+.cat_img2 {
     background-image: url("/images/amiri-girls-jeans-distressed-stretch-cotton-denim-jeans.jpg");
     height: 60%;
     width: 100%;
@@ -261,40 +296,40 @@ font-family: 'Questrial', sans-serif;
     background-repeat: no-repeat;
 }
 
-.cat_img3{
+.cat_img3 {
     background-image: url("/images/3wucm_512.jpg");
-    height:60%;
+    height: 60%;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.cat_img4{
+.cat_img4 {
     background-image: url("/images/73ad62b54865fe0a0c84ac4f2a3f3302.jpg");
-    height:60%;
+    height: 60%;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.cat_img5{
+.cat_img5 {
     background-image: url("/images/61G4o5AVijL._UY500_.jpg");
-    height:60%;
+    height: 60%;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.cat_img6{
+.cat_img6 {
     background-image: url("/images/71dzAJ5GB9L._AC_UL320_.jpg");
-    height:60%;
+    height: 60%;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 
-.caption{
+.caption {
     /* border: 3px solid black; */
     height: 41px;
     margin: 0;
@@ -308,8 +343,26 @@ font-family: 'Questrial', sans-serif;
 }
 
 
+
+
+
+
 /* product page */
 
+.products_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
 
+.sub_prd .pd_img img {
+    width: 250px;
+    height: 350px;
 
+}
 
+.sub_prd {
+    margin: 20px;
+}
